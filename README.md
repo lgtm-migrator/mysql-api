@@ -1,11 +1,11 @@
-# mysql-api
+# mysql2api
 
 mysql to api
 
 ## install
 
 ```bash
-npm i -g mysql-api
+npm i -g mysql2api
 ```
 
 ## usage
@@ -13,7 +13,7 @@ npm i -g mysql-api
 Baisc Usage
 
 ```bash
-mysql-api -c mysql://username:password@host/db?multipleStatements=true
+mysql2api -c mysql://username:password@host/db?multipleStatements=true
 ```
 
 and server started at `0.0.0.0:3307`
@@ -23,5 +23,5 @@ and server started at `0.0.0.0:3307`
 Full Options
 
 ```bash
-mysql-api -c [connection str] -p [listen port] -l [listen host]
+mysql2api -c [connection str] -p [listen port] -l [listen host]
 ```
