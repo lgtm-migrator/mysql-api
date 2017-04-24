@@ -1,0 +1,32 @@
+{
+  "name": "mysql-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "bin": {
+    "mysql-api": "main.js"
+  },
+  "scripts": {
+    "test": "echo \"pass tests\" && exit 0"
+  },
+  "engines": {
+    "node": "7.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soontao/mysql-api.git"
+  },
+  "author": "Theo Sun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Soontao/mysql-api/issues"
+  },
+  "homepage": "https://github.com/Soontao/mysql-api#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "express": "^4.15.2",
+    "mysql": "^2.13.0",
+    "mysql-metadata": "^1.0.0",
+    "mysql-to-rest": "^1.0.7"
+  }
+}
