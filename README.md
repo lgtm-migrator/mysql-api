@@ -18,6 +18,13 @@ mysql2api -c mysql://username:password@host/db?multipleStatements=true
 
 and server started at `0.0.0.0:3307`
 
+you can access follow uri
+
+* //server/api/metadata
+* //server/api/:table
+* //server/api/:table/:id
+* and more in this [document](https://npm.taobao.org/package/mysql-to-rest)
+
 **please make sure multipleStatements param in it**
 
 Full Options
