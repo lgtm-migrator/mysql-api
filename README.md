@@ -10,6 +10,8 @@ npm i -g mysql2api
 
 ## usage
 
+**Please make node version is above 7.6.0**
+
 Baisc Usage
 
 ```bash
@@ -25,7 +27,7 @@ you can access follow uri
 * //server/api/:table/:id
 * and more in this [document](https://npm.taobao.org/package/mysql-to-rest)
 
-**please make sure multipleStatements param in it**
+**Please make sure multipleStatements param in it**
 
 Full Options
 
